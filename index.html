@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amos Horne">
+    <meta name="description" content="Bear, Ninja, Hunter — play against the computer.">
+    <title>Bear, Ninja, Hunter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="page-container">
+
+        <h2>Bear, Ninja, Hunter</h2>
+
+        <p id="subtitle">Play against the computer!</p>
+
+        <div id="rules-wrapper">
+            <ul id="rules-list">
+                <li>The Bear Beats the Hunter.</li>
+                <li>The Hunter beats the Ninja.</li>
+                <li>And the Ninja beats the Bear.</li>
+            </ul>
+        </div>
+
+        <p id="instruction">Click a button below to select your choice.</p>
+
+        <hr class="game-hr">
+
+        <div id="buttons-row">
+            <button class="choice-btn" id="bear-btn">Bear</button>
+            <button class="choice-btn" id="ninja-btn">Ninja</button>
+            <button class="choice-btn" id="hunter-btn">Hunter</button>
+        </div>
+
+        <hr class="game-hr">
+
+        <!-- Hidden until a game is played -->
+        <div id="results-section">
+
+            <div id="result-box">
+                <p id="player-choice-text"></p>
+                <p id="computer-choice-text"></p>
+                <p id="outcome-text"></p>
+            </div>
+
+            <div id="win-counter-wrapper">
+                <div id="win-counter">
+                    <p id="player-wins"></p>
+                    <p id="computer-wins"></p>
+                </div>
+            </div>
+
+            <button id="play-again-btn">Play Again?</button>
+
+            <hr class="game-hr">
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
